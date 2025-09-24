@@ -1,2 +1,2 @@
 # ElevateLabs-Task2
-CRUD operatin on student entity
+CRUD operation on student entity on CLI
