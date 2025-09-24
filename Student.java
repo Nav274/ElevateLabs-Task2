@@ -104,7 +104,7 @@ public class Student {
 						
 						list.add(s);
 						System.out.println("created successfully");
-						System.out.println();
+						System.out.println("------------");
 						break;
 				case 2: System.out.println("Enter ID of student");
 							 id = sc.nextInt();
@@ -124,7 +124,7 @@ public class Student {
 							 else {
 								 System.out.println("Student not found");
 							 }
-							 System.out.println();
+							 System.out.println("------------");
 						break;
 				case 3: System.out.println("Enter ID of student"); 
 							id = sc.nextInt();
@@ -136,7 +136,7 @@ public class Student {
 								System.out.println("Student deleted");
 							}
 						System.out.println("Student not found");
-						System.out.println();
+						System.out.println("------------");
 						break;	
 				case 4: System.out.println("Enter ID of student"); 
 							id = sc.nextInt();
@@ -147,7 +147,7 @@ public class Student {
 								System.out.print(student.getName()+ " ");
 								System.out.println(student.getMarks());
 							}
-							System.out.println();
+							System.out.println("------------");
 						break;
 				case 5: System.out.println("Getting all students");
 						
@@ -158,7 +158,7 @@ public class Student {
 							System.out.println(stu.getMarks());
 							
 						}
-						System.out.println();
+						System.out.println("------------");
 						break;
 				case 6: System.out.println("exited"); 
 						break;
@@ -171,3 +171,4 @@ public class Student {
 
 
 }
+
